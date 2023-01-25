@@ -1,15 +1,15 @@
 ﻿using System.Collections;
 
-public class LinkedList<T>: IEnumerable
-{
-    public Item<T> Head { get; private set;}
+  public class DoublyLinkedList<T>
+  {
+    public Item<T> Head { get; private set; }
     public Item<T> Tail { get; private set; }
     public int Count { get; private set; }
-    public LinkedList()
+    public DoublyLinkedList()
     {
         ClearList();
     }
-    public LinkedList(T data)
+    public DoublyLinkedList(T data)
     {
         ClearList();
         Add(data);
@@ -32,6 +32,7 @@ public class LinkedList<T>: IEnumerable
         if (Head.Data.Equals(data))
         {
             Head = Head.Next;
+            Head.Previous = null;
             Count--;
             return;
         }
@@ -42,8 +43,9 @@ public class LinkedList<T>: IEnumerable
         while (current != null)
         {
             if (current.Data.Equals(data))
-            {               
+            {
                 previous.Next = current.Next;
+                current.Next.Previous = previous;
                 Count--;
                 return;
             }
@@ -60,27 +62,27 @@ public class LinkedList<T>: IEnumerable
 
     public void InsertAfter(T target, T data)
     {
-        if(Head == null)
+        if (Head == null)
         {
             CreatNewItem(data);
             return;
         }
-       
+
         if (Head.Data.Equals(target))
         {
             CreateItemAndIsert(Head, data);
             return;
         }
-       
+
         var current = Head.Next;
 
         while (current != null)
-        {           
+        {
             if (current.Data.Equals(target))
             {
                 CreateItemAndIsert(current, data);
                 return;
-            }        
+            }
             current = current.Next;
         }
     }
@@ -89,6 +91,7 @@ public class LinkedList<T>: IEnumerable
     {
         var item = new Item<T>(data);
         item.Next = previousItem.Next;
+        item.Previous = previousItem;
         previousItem.Next = item;
         Count++;
     }
@@ -103,6 +106,7 @@ public class LinkedList<T>: IEnumerable
     private void CreatNewItem(T data)
     {
         var item = new Item<T>(data);
+        item.Previous = Tail;
         Tail.Next = item;
         SetTail(item);
         Count++;
@@ -110,7 +114,7 @@ public class LinkedList<T>: IEnumerable
 
     private Item<T> SetHead(T data)
     {
-        var item = new Item<T>(data); 
+        var item = new Item<T>(data);
         Head = item;
         Count = 1;
         return item;
@@ -130,7 +134,6 @@ public class LinkedList<T>: IEnumerable
             current = current.Next;
         }
     }
-
 
 }
 

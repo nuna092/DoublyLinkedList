@@ -6,7 +6,7 @@ namespace LinearListExample
     {
         static void Main(string[] args)
         {
-            var list = new LinkedList<int>();
+            var list = new DoublyLinkedList<int>();
             list.Add(1);
             list.Add(2);
             list.Add(3);

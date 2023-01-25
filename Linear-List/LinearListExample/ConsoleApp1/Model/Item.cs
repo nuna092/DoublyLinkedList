@@ -4,16 +4,18 @@ public class Item<T>
 {
     public T Data
     {
-        get => data; 
+        get => data;
         set
         {
             if (value != null)
                 data = value;
             else
-                throw new ArgumentNullException(nameof(value));           
+                throw new ArgumentNullException(nameof(value));
         }
     }
     public Item<T> Next { get; set; }
+
+    public Item<T> Previous { get; set; }
 
     public Item(T data)
     {
@@ -27,6 +29,6 @@ public class Item<T>
         return Data.ToString();
     }
 
-  
+
 }
 

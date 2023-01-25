@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub-Linear-List\\linear-list\\Linear-List\\LinearListExample\\ConsoleApp1\\Linear-List-Example.csproj": {}
+    "D:\\GitDoublyLinkedList\\Linear-List\\LinearListExample\\ConsoleApp1\\Linear-List-Example.csproj": {}
   },
   "projects": {
-    "D:\\GitHub-Linear-List\\linear-list\\Linear-List\\LinearListExample\\ConsoleApp1\\Linear-List-Example.csproj": {
+    "D:\\GitDoublyLinkedList\\Linear-List\\LinearListExample\\ConsoleApp1\\Linear-List-Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub-Linear-List\\linear-list\\Linear-List\\LinearListExample\\ConsoleApp1\\Linear-List-Example.csproj",
+        "projectUniqueName": "D:\\GitDoublyLinkedList\\Linear-List\\LinearListExample\\ConsoleApp1\\Linear-List-Example.csproj",
         "projectName": "Linear-List-Example",
-        "projectPath": "D:\\GitHub-Linear-List\\linear-list\\Linear-List\\LinearListExample\\ConsoleApp1\\Linear-List-Example.csproj",
+        "projectPath": "D:\\GitDoublyLinkedList\\Linear-List\\LinearListExample\\ConsoleApp1\\Linear-List-Example.csproj",
         "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub-Linear-List\\linear-list\\Linear-List\\LinearListExample\\ConsoleApp1\\obj\\",
+        "outputPath": "D:\\GitDoublyLinkedList\\Linear-List\\LinearListExample\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Никита\\AppData\\Roaming\\NuGet\\NuGet.Config",

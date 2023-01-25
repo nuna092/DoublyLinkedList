@@ -30,3 +30,17 @@ D:\GitHub-Linear-List\linear-list\Linear-List\LinearListExample\ConsoleApp1\obj\
 D:\GitHub-Linear-List\linear-list\Linear-List\LinearListExample\ConsoleApp1\obj\Debug\netcoreapp3.1\Linear-List-Example.dll
 D:\GitHub-Linear-List\linear-list\Linear-List\LinearListExample\ConsoleApp1\obj\Debug\netcoreapp3.1\Linear-List-Example.pdb
 D:\GitHub-Linear-List\linear-list\Linear-List\LinearListExample\ConsoleApp1\obj\Debug\netcoreapp3.1\Linear-List-Example.genruntimeconfig.cache
+D:\GitDoublyLinkedList\Linear-List\LinearListExample\ConsoleApp1\bin\Debug\netcoreapp3.1\Linear-List-Example.exe
+D:\GitDoublyLinkedList\Linear-List\LinearListExample\ConsoleApp1\bin\Debug\netcoreapp3.1\Linear-List-Example.deps.json
+D:\GitDoublyLinkedList\Linear-List\LinearListExample\ConsoleApp1\bin\Debug\netcoreapp3.1\Linear-List-Example.runtimeconfig.json
+D:\GitDoublyLinkedList\Linear-List\LinearListExample\ConsoleApp1\bin\Debug\netcoreapp3.1\Linear-List-Example.runtimeconfig.dev.json
+D:\GitDoublyLinkedList\Linear-List\LinearListExample\ConsoleApp1\bin\Debug\netcoreapp3.1\Linear-List-Example.dll
+D:\GitDoublyLinkedList\Linear-List\LinearListExample\ConsoleApp1\bin\Debug\netcoreapp3.1\Linear-List-Example.pdb
+D:\GitDoublyLinkedList\Linear-List\LinearListExample\ConsoleApp1\obj\Debug\netcoreapp3.1\Linear-List-Example.csproj.AssemblyReference.cache
+D:\GitDoublyLinkedList\Linear-List\LinearListExample\ConsoleApp1\obj\Debug\netcoreapp3.1\Linear-List-Example.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitDoublyLinkedList\Linear-List\LinearListExample\ConsoleApp1\obj\Debug\netcoreapp3.1\Linear-List-Example.AssemblyInfoInputs.cache
+D:\GitDoublyLinkedList\Linear-List\LinearListExample\ConsoleApp1\obj\Debug\netcoreapp3.1\Linear-List-Example.AssemblyInfo.cs
+D:\GitDoublyLinkedList\Linear-List\LinearListExample\ConsoleApp1\obj\Debug\netcoreapp3.1\Linear-List-Example.csproj.CoreCompileInputs.cache
+D:\GitDoublyLinkedList\Linear-List\LinearListExample\ConsoleApp1\obj\Debug\netcoreapp3.1\Linear-List-Example.dll
+D:\GitDoublyLinkedList\Linear-List\LinearListExample\ConsoleApp1\obj\Debug\netcoreapp3.1\Linear-List-Example.pdb
+D:\GitDoublyLinkedList\Linear-List\LinearListExample\ConsoleApp1\obj\Debug\netcoreapp3.1\Linear-List-Example.genruntimeconfig.cache
